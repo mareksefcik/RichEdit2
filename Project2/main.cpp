@@ -89,7 +89,7 @@ public :
 			wchar_t selChar = selText.GetAt(0);
 			// %#06x : # menas add 0x, 0 meand left-pad with zeros, 6 is minimal number of characters, x is hexadecimal specifier
 			outputText.Format(_T("%s%s : %#06x : %s \r\n"), outputText, selText, selChar, cf.szFaceName);
-			// bool bFontIsEqual = proposedFont.compare(cf.szFaceName) == 0;
+			// Changing multiple files
 		}
 	
 		m_text1.SetWindowText(outputText);
