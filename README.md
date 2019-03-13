@@ -7,3 +7,4 @@ Edit3 (line feed)
 Edit4 (git gui)
 Edit A (multiple files)
 Edit B (testing history)
+Edit C
