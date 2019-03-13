@@ -20,6 +20,7 @@ std::wstring proposedString(_T("A≤B◇C◊D")); // A≤B◇C◊D
 class CMyDialog : public CDialog
 {
 public :
+	// Adding comment.
 	CRichEditCtrl m_richEditCtrl;
 	CStatic m_text1;
 	CEdit m_EditControl;
@@ -37,8 +38,8 @@ public :
 
 	virtual BOOL OnInitDialog()
 	{
-		CDialog::OnInitDialog();
-		// For CRichEditCtrl, we need to enable notification, so that parent gets notified.
+		CDilog::OnInitDialog();
+		// Changing comment.
 		m_richEditCtrl.SetEventMask(m_richEditCtrl.GetEventMask() | ENM_CHANGE);
 		m_richEditCtrl.SetWindowTextW(proposedString.c_str());
 		
