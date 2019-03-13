@@ -75,7 +75,7 @@ public :
 
 	void CMyDialog::OnChange()
 	{
-		CString selText;
+		CString this is second change without push;
 		CHARFORMAT cf;
 		long len;
 	
