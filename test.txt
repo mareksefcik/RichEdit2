@@ -1,0 +1,1 @@
+This file was created in branch 1.0 and it is supposed to be merged to master.
