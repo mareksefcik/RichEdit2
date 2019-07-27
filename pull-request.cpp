@@ -6,6 +6,7 @@ void Tab1::OnAdd()
 	int y = 1;
 	y++;
 	y++;
+	y++;
 }
 
 void Tab1::OnButton1()
