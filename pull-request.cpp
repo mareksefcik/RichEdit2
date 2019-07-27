@@ -5,7 +5,6 @@ void Tab1::OnAdd()
 	//UpdateData(FALSE);				// update gui
 	int x = 1;
 	x++;
-	++x;
 }
 
 void Tab1::OnButton1()
