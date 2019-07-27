@@ -7,5 +7,5 @@ void Tab1::OnAdd()
 	y++;
 	y++;
 	y++;
-	// Now the problematic line is fixed.
+	// This fixes problematic line in AAAA.
 }
