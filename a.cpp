@@ -7,4 +7,5 @@ void Tab1::OnAdd()
 	y++;
 	y++;
 	y++;
+	// Hala bala changed in master.
 }
