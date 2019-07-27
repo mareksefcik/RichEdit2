@@ -7,5 +7,5 @@ void Tab1::OnAdd()
 	y++;
 	y++;
 	y++;
-	// This is problematic line.
+	// Now the problematic line is fixed.
 }
