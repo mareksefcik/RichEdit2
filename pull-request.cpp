@@ -3,6 +3,8 @@ void Tab1::OnAdd()
 	UpdateData(TRUE);					// update member		
 	m_listBox.AddString(m_EditString);
 	//UpdateData(FALSE);				// update gui
+	int x = 1;
+	x++;
 }
 
 void Tab1::OnButton1()
